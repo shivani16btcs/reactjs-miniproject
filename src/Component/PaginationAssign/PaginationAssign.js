@@ -1,5 +1,4 @@
 
-import Input from '../UserInput/UserInput'
 import React,{ useState }  from 'react';
 const pagesize=2 ;
 
@@ -37,7 +36,7 @@ const PaginationAssign = (props)=>{
 
     return (
     <div>
-    <Input />
+    {/* <Input /> */}
         <div>{print(currentindex)}</div>
         <div>
             <button onClick={()=>setCurrentindex(0)}>  first   </button>

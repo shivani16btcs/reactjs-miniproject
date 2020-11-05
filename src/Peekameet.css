@@ -1,0 +1,681 @@
+.Outer{
+    width: 1366px;
+    height: 768px; 
+    /* background-color: #f9c82d; */
+    background-image: linear-gradient(100deg, #14b349 -99%, #09a04f 199%);
+}
+
+
+
+.onToprectangle{
+width: 1366px;
+height: 56px;
+/* background-color: #308e4d;   */
+background-image: linear-gradient(100deg, #14b349 -99%, #09a04f 199%);
+}
+
+.Oval {
+float: left;
+width: 40px;
+height: 40px;
+margin-top:8px;
+margin-left:143px ;
+/* margin: 8px 1183px 8px 143px;     */
+/* top right bottom left */
+border-radius: 50%;
+background-color: #152d4e;
+}
+
+.PeekameetText{
+float: left;
+width: 104px;
+height: 24px;  
+margin-top:16px;
+margin-left:8px ;  
+/* margin: 16px 1071px 16px 191px;       */
+font-family: CircularStd;
+font-size: 18.8px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: -0.4px;
+color: #ffffff;
+}
+
+.Path1 {
+width: 10px;
+height: 16px;
+background-color: #0080af;
+}
+
+.Path2 {
+width: 13px;
+height: 13px;
+background-color: #f17c2b;
+}
+.Path3 {
+width: 4px;
+height: 4px;
+background-color: #96368f;
+}
+.Path4 {
+width: 13px;
+height: 13px;
+background-color: var(--darkish-pink);
+}
+.Path5 {
+width: 10px;
+height: 16px;
+background-color: #308e4d;
+}
+.Path6 {
+    width: 4px;
+    height: 4px;
+    background-color: #f9c82d;
+    }
+
+.Path7 {
+    width: 16px;
+    height: 10px;
+    background-color: #1a9691;
+    }
+
+.Path8 {
+    width: 4px;
+    height: 4px;
+    background-color: #e7212c;
+    }
+
+
+.Sign-In {
+    float: Right;
+    margin-top:13px;
+    margin-right:143px;
+    width: 51px;
+    height: 21px;
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+   
+  }
+
+  .Sign-Up {
+    margin-top:13px;
+    float:Right;
+    width: 57px;
+    height: 21px;
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--algae-green);
+  }
+
+  .onMiddle{
+    width: 1080px;
+    height: 588px;
+    margin-top:30px;
+    margin-left:143px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+
+  .Group-18{
+    float:left;
+    width: 559px;
+    height: 468px;
+    margin-top:30px;
+    margin-left:30px;
+    object-fit: contain;
+  }
+
+  .PEEKaMEET-lets-you-n{
+    float:left;
+    width: 431px;
+    height: 55px;
+    margin-top:30px;
+    Margin-left:5px;
+    font-family: DMSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  .PEEKaMEET-lets-you-n .para{
+  font-size: 24px;
+  font-weight: bold;
+  }
+   
+  .Freelancer{
+    margin-top:7px;
+    margin-left:5px;
+    padding: 6px 14px 7px 14px ;
+    float:left;
+    /* width: 100px;
+    height: 30px; */
+    border-radius: 15px;
+    background-color: rgba(230, 49, 131, 0.18);
+    font-family: DMSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f17c2b;
+  }
+
+
+  .Job{
+    margin-top:7px;
+    margin-left:5px;
+    padding: 6px 14px 7px 14px ;
+    float:left;
+    border-radius: 15px;
+    background-color: rgba(150, 54, 143, 0.18);
+    font-family: DMSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #96368f;
+  }
+
+
+  .enterpreneur{
+    margin-top:7px;
+    margin-left:5px;
+    padding: 6px 14px 7px 14px ;
+    float:left;
+    /* margin-left:823px;
+    margin-top: 101px; */
+    border-radius: 15px;
+    background-color: rgba(26, 150, 145, 0.18);
+    font-family: DMSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1a9691;
+  }
+
+  .mompreneur{
+    margin-top:7px;
+    margin-left:5px;
+    padding: 6px 14px 7px 14px ;
+    float:left;
+    border-radius: 15px;
+    background-color: rgba(230, 49, 131, 0.18);
+    font-family: DMSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--darkish-pink);
+  }
+
+  .Internship{
+    margin-top:7px;
+    margin-left:5px;
+    padding: 6px 14px 7px 14px ;
+    float:left;
+    border-radius: 15px;
+    background-color: rgba(0, 128, 175, 0.17);
+    font-family: DMSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0080af;
+  
+  }
+
+  
+  .Environmental-Change{
+    margin-top:7px;
+    margin-left:5px;
+    padding: 6px 14px 7px 14px ;
+    float:left;
+    border-radius: 15px;
+    background-color: rgba(231, 33, 44, 0.18);
+    font-family: DMSans;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e7212c;
+  
+  }
+
+
+  .Build-and-manage-you {
+    float:left;
+    margin-left: 5px;
+    width: 431px;
+    height: 24px;
+    font-family: DMSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  
+  .Email {
+    /* margin-top:31px;
+    margin-left: 619px; */
+    margin-right: 320px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    width: 31px;
+    height: 16px;
+    font-family: DMSans;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9ea0a3;
+  }
+
+
+  .Rectangle-Copy-6 {
+    margin: 10px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    width: 431px;
+    height: 36px;
+    border-radius: 4px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+    border: solid 1px #1cb54f    ;
+    background-color: #ffffff;
+  }
+
+  .psw{
+  margin-right: 320px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  width: 431px;
+  height: 16px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
+  }
+  .Signin_Button{
+  margin-left: 5px;
+  width: 437px;
+  height: 36px;
+  border-radius: 4px;
+  background-image: linear-gradient(92deg, #14b349 -109%, #09a04f 209%);
+  }
+  
+  .rememberMe-checkbox{
+  float: left;
+  margin-top:10px;
+  margin-left: 5px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  opacity: 0.7;
+  border-radius: 4px;
+  border: solid 1px #152d4e;
+  }
+
+  .Remember-Me{
+  float: left;
+  margin-left: 5px;
+  margin-top:10px;
+  width: 95px;
+  height: 18px;
+  opacity: 0.7;
+  font-family: DMSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #152d4e;
+  }
+
+  
+  .forget{
+    float: right;
+    margin-right:30px;
+    margin-top:10px;
+    width: 109px;
+    height: 18px;
+    opacity: 0.7;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+  
+
+  .onfoot{
+  margin-top: 30px;
+  width: 1366px;
+  height: 64px;
+  background-color: #f4f7f8;
+  }
+
+  
+  .PEEKaMEET2020 {
+    float: left;
+    margin-top: 24px;
+    margin-left: 30px;
+    width: 121px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  .Follow-Us {
+    float: left;
+    margin-top: 24px;
+    margin-left:99px;
+    width: 63px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+  .instagram-fill {
+    float: left;
+    margin-left: 8px;
+    margin-top: 18px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .youtube-fill {
+    float: left;
+    margin-left: 8px;
+    margin-top: 18px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .facebook-box-fill {
+    float: left;
+    margin-left: 8px;
+    margin-top: 18px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .twitter-fill {
+    float: left;
+    margin-left: 8px;
+    margin-top: 18px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .FAQs {
+    float: left;
+    margin-top: 24px;
+   margin-left: 30px;
+    width: 34px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  .Terms-Conditions {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 128px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+
+  .Privacy-Policy {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 89px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  .About-Us-Copy {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 60px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  .Press {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 35px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+
+  .Contact-Us {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 73px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+
+  .Perks {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 35px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+  .Blog {
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 28px;
+    height: 18px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #152d4e;
+  }
+
+
+  .isa_info, .isa_success, .isa_warning, .isa_error {
+    margin: 2px 0px;
+    padding:2px;
+     
+    }
+    .isa_info {
+        color: #00529B;
+        font-size:15px;
+
+    }
+    .isa_success {
+        color: #4F8A10;
+        font-size:15px;
+
+    }
+    .isa_warning {
+        color: #9F6000;
+        font-size:15px;
+
+    }
+    .isa_error {
+        color: #D8000C;
+        font-size:15px;
+
+    }
+    .isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+        /* margin:10px 22px; */
+        vertical-align:middle;
+    }
+
+
+
+    /*  ----------------------------profile ------------------------------*/
+    .Logout{
+      margin-left: 1093;
+      margin-top:24px;
+    }
+    .Logout {
+      float: Right;
+      margin-top:13px;
+      margin-right:143px;
+      width: 51px;
+      height: 21px;
+      font-family: DMSans;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+     
+    }
+    .ProfileOuter{
+    margin-left: 251px;
+    margin-top: 15px;
+    width: 479px;
+    border-radius: 4px;
+    border: solid 1px var(--algae-green);
+    background-color: #ffffff;
+    }
+
+    .photobg{
+    width: 479px;
+    height: 92px;
+    object-fit: contain;
+    background-color: #000000;
+    }
+
+    .profilePhoto{
+    margin-left: 180px;
+    margin-top: -46px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #152d4e;
+    }
+
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }

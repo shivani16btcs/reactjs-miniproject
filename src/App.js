@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import PaginationAssign from "./PaginationAssign/PaginationAssign"
+import {  Route, Switch ,Redirect} from 'react-router-dom';
+import Footer from './Component/Footer/Footer';
+
+// import PaginationAssign from "./PaginationAssign/PaginationAssign";
+import SignIn from "./Component/SignIn/SignIn" ;
+import Profile from "./Component/Profile/Profile";
 class App extends Component {
   state = {
     students :[{rollno:"1",name:"A",emailid:"abc@gmail.com"},{rollno:"2",name:"B",emailid:"c@gmail.com"},{rollno:"3",name:"C",emailid:"ac@gmail.com"},{rollno:"4",name:"D",emailid:"bc@gmail.com"},
@@ -12,11 +16,22 @@ class App extends Component {
   
   render() {
     return (
-      <div className="App">
-        <PaginationAssign  students={this.state.students} />
+      <div >
+        {/* <PaginationAssign  students={this.state.students} /> */}
+       
+        {/* <SignIn /> */}
+      <Switch>
+        <Route  exact path="/" component={SignIn} />
+        <Route  path="/signin" component={SignIn} />
+        <Redirect from='/signin' to="/profile" />
+        {/* <Redirect  to="/" /> */}
+        <Route path="/profile" component={Profile}/>
+      </Switch> 
+      <Footer/>
       </div>
     );
   }
 }
+
 
 export default App;
