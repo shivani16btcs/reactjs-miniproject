@@ -16,8 +16,8 @@ const Header_Notlogin = (props)=>{
             <div className="Path7"></div> */}
         </div>
         <div className="PeekameetText">PEEKaMEET</div>  
-        <div className="Sign-In"> <button> Sign In </button></div>
-        <div className="Sign-Up"><button>Sign Up</button></div>
+        <div > <button className="Sign-In "> SignIn </button></div>
+        <div ><button className="Sign-Up ">SignUp</button></div>
         </div>
     </div>
 </div>

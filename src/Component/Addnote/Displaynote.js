@@ -5,12 +5,14 @@ const Displaynote = (props)=>{
     
  return (
    <div>
-       {/* <li> {props.note}</li> */}
-        <li>{props.note.date}   {props.note.time}  {props.note.content}</li>
+       <div className="notebox">
+           <p> {props.note.content}</p>
+          <p className="date_time"> {props.note.time}  {props.note.date}</p>  
        <div>
-       <button className="btn">edit  </button> 
+       {/* <button className="btn">edit  </button> 
       
-        <button className="btn">delete</button>
+        <button className="btn">delete</button> */}
+       </div>
        </div>
    </div>
     )

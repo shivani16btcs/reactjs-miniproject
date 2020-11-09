@@ -89,27 +89,37 @@ background-color: #308e4d;
 
 
 .Sign-In {
+  
+  
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+
+
+
     float: Right;
     margin-top:13px;
     margin-right:143px;
-    width: 51px;
-    height: 21px;
+    width: 65px;
+    height: 30px;
     font-family: DMSans;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: normal;
-    color: #ffffff;
-   
+    letter-spacing: normal;   
   }
 
   .Sign-Up {
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+
     margin-top:13px;
     float:Right;
-    width: 57px;
-    height: 21px;
+    width: 65px;
+    height: 30px;
     font-family: DMSans;
     font-size: 16px;
     font-weight: 500;
@@ -679,3 +689,331 @@ background-color: #308e4d;
       font-size: 16px;
       cursor: pointer;
     }
+
+    .Username{
+     
+      margin-left: 182px;
+      margin-top:10px;
+      width: 114px;
+    height: 21px;
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #152d4e;
+    }
+
+    .Userposition{
+      margin-left: 225px;
+      margin-top:5px;
+      width: 26px;
+      height: 16px;
+      font-family: DMSans;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #152d4e;
+    }
+
+    .Gold_brand{
+      margin-left: 205px;
+      margin-top:5px;
+      width: 72px;
+      height: 16px;
+      font-family: DMSans;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #152d4e;
+    }
+
+    .video{
+      margin-left: 180px;
+      margin-top:10px;
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      border-radius: 50%;
+      background-color: #00529B;
+    }
+
+    .golbutton{
+      margin-left: 265px;
+      margin-top:-31px;
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      border-radius: 50%;
+      background-color: #96368f;
+
+    }
+
+    .messagebutton{
+      margin-left:90px;
+      margin-top: 10px;
+      width: 135px;
+  height: 30px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #14b349, #09a04f);
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;   
+    }
+
+    .contactbutton{
+      margin-left:16px;
+      margin-top: 10px;
+
+      width: 135px;
+  height: 30px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #14b349, #09a04f);
+        font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+
+    .noteanddetail{
+      margin-top: 20px;
+    }
+
+    .DETAIL{
+      margin-left:10px;
+      height: 30px;
+      border-radius: 4px;
+      background-color:Transparent;
+      font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: Black;
+      Border:0;
+    }
+
+    .NOTE{
+      height: 30px;
+      border-radius: 4px;
+      background-color:Transparent;
+      font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: Black;
+      Border:0;
+    }
+
+.hrline{
+  color:grey;
+  margin-left:10px;
+  margin-right:10px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+
+}
+   
+
+.Addnote_Button{
+  margin-left: 5px;
+  width: 437px;
+  height: 36px;
+  border-radius: 0px;
+  background-color: transparent;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+
+}
+
+.noteform{
+  margin-left: 190px;
+}
+
+.save{
+  background-color: green;
+}
+
+.cancel{
+  background-color:red;
+}
+
+
+.notebox{
+  margin-left: 35px;
+  width: 380px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  padding:10px;
+  margin-top:20px;
+  border-radius: 10px;
+  border-left-style: solid;
+  /* border-top-color: coral; */ 
+  border-left-width: 5px;
+  border-left-color: green;
+}
+
+.date_time{
+  font-size: 10px;
+  color:grey;
+}
+
+.pagination-css{
+  margin-top:20px;
+  margin-left: 140px;
+}
+
+.dropdown{
+  float:right;
+  color:grey;
+  border-radius: 4px;
+  padding:8px;
+  background-color: #ffffff;
+}
+
+.Follow-Up-Date{
+  
+  margin-left: 40px;
+ /* float:left; */
+  width: 84px;
+  height: 16px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
+}
+
+.time {
+  margin-left:100px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
+}
+
+.Notes {
+  width: 34px;
+  height: 16px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
+}
+.date_field{
+  width: 107px;
+  
+  /* border: solid 1px #dddee2; */
+
+  margin-top: 30px;
+  margin-left: -90px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  color: #9ea0a3;
+
+}
+
+.time_field{
+  margin-top:30px;
+  width: 107px;
+ height: 16px;
+  /* border: solid 1px #dddee2; */
+
+  margin-left: -20px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  /* border-bottom-style: groove; */
+  color: #9ea0a3;
+}
+
+.abovefield{
+display:flex;
+margin-top:40px;
+}
+
+.content_Notes{
+  padding-top:40px;
+  margin-left: 40px;
+  width: 34px;
+  height: 16px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
+}
+
+.field_content{
+  margin-left:37px;
+  width: 320px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+
+.NOTE_save{
+  margin-left:40px;
+  width: 46px;
+  height: 26px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.NOTE_cancel{
+  margin-left:40px;
+  width: 56px;
+  height: 26px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+
+.logout{
+ 
+    float: Right;
+    margin-top:13px;
+    margin-right:143px;
+    width: 65px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal; 
+}

@@ -19,7 +19,7 @@ const Header_login = (props)=>{
         </div>
         <div className="PeekameetText">PEEKaMEET</div>  
         {/* <div className="Sign-In"> <button> Logout </button></div> */}
-        <Link to='/signin' className="Sign-In">Logout</Link>
+        <Link to='/signin' className="logout">Logout</Link>
         {/* <div className="Sign-Up"><button>Sign Up</button></div> */}
         </div>
     </div>
