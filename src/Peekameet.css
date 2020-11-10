@@ -241,7 +241,8 @@ background-color: #308e4d;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--darkish-pink);
+    color: #e63183;
+   
   }
 
   .Internship{
@@ -1016,4 +1017,125 @@ margin-top:40px;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal; 
+}
+
+.Inspired-by-the-worl{
+  text-align: center;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: var(--dark-slate-blue);
+}
+
+.Lorem-ipsum-dolor-si {
+  text-align: center;
+  height: 80px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #152d4e;
+}
+.Lorem-ipsum-dolor-si .Lorem-text-style-1 {
+  color: #1cb54f
+}
+.Industrys {
+  width: 61px;
+  height: 16px;
+  font-family: DMSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
+}
+.Web_Rectangle {
+  float: left;
+  width: 154px;
+  height: 35px;
+  border-radius: 17.5px;
+  background-color: rgba(241, 124, 43, 0.18)  ;
+}
+
+.Web-Development {
+  margin-left:20px;
+  margin-bottom: 5px;
+  width: 126px;
+  height: 18px;
+  font-family: DMSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f17c2b;
+}
+
+
+.Fine-Art {
+  margin-top:-2px;
+  width: 53px;
+  height: 18px;
+  font-family: DMSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f17c2b;
+}
+
+.Fine_rectangle{
+  float: left;
+  margin-top:-2px;
+  width: 51px;
+  height: 18px;
+  margin: 8px 0 0 4px;
+  padding: 9px 14px 8px;
+  border-radius: 17.5px;
+  background-color: rgba(241, 124, 43, 0.18);
+}
+
+.Detail_page{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.border_box_exchange{
+  width: 477px;
+  height: 50px;
+  margin: 24px 0;
+  background-color: rgba(28, 181, 79, 0.1);
+  text-align:center;
+
+}
+
+.exchange-text{
+ padding: 10px;
+ padding-left: 70px;
+  width: 281px;
+  height: 24px;
+  margin: 12px 172px 12px 24px;
+  font-family: DMSans;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1cb54f;
+
 }
